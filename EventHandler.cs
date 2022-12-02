@@ -42,7 +42,7 @@ public class EventHandler
             StopCoroutineFor(ev.Player);
         }
     }
-
+     
     private void StopCoroutineFor(Player player) 
     {
         if (PlayersCoroutines.TryGetValue(player, out CoroutineHandle coroutineHandler))
