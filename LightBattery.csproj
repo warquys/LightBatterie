@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFramework>net472</TargetFramework>
+	  <PlatformTarget>x64</PlatformTarget>
+	  <LangVersion>latest</LangVersion>
+	  <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+	  <OutputType>Library</OutputType>
+	  <Platforms>AnyCPU</Platforms>
+	  <RootNamespace>LightBattery</RootNamespace>
+	  <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	  <Authors>VT</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SynapseSL" Version="2.10.1" />
+  </ItemGroup>
+
+</Project>

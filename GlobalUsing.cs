@@ -1,0 +1,14 @@
+﻿global using global ::System;
+global using global::System.Collections.Generic;
+global using global::System.Linq;
+global using global::System.Text;
+global using global::System.ComponentModel;
+global using global::Synapse;
+global using global::Synapse.Api;
+global using global::Synapse.Api.Plugin;
+global using global::Synapse.Api.Events;
+global using global::Synapse.Api.Events.SynapseEventArguments;
+global using global::Synapse.Api.Items;
+global using global::Synapse.Config;
+global using global::Synapse.Translation;
+global using global::MEC;
